@@ -26,12 +26,10 @@ const pure = function(x){
 Se a função executasse outras ações antes de realizar a soma então ela seria uma Impure Function, Exemplo:
 
 ```javascript
-let counter = 0
 const impure = function(x) {
 	const y = x + 2
-    counter++
 	console.log(y)
-	return y+counter
+	return y;
 }
 ```
 
