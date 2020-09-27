@@ -6,7 +6,7 @@
 
 * First-Class Functions
 
-As funções são tratadas como variáveis e isso permite passar as funções como argumento para outra função, envolver uma função por outra função e atribuir em uma variável.
+As funções são tratadas como variáveis e isso permite passar as funções como argumento para outra função, composição defunções, atribuir uma função em uma variável, retornar uma função por outra função, chamada parciais de funções (currying).
 
 ```javascript
 // Example_1.js

@@ -36,17 +36,19 @@ São diretrizes para organização de branches, criado por Vincent Driessen.  :s
 
 
 
-## GIT - Best practices
+## GIT - Boas práticas
 
-### Branch naming
+### Comentários
+
+1. Os títulos dos commits devem ter no máximo 50 characteres
+
+```
+fix: replace wrong text in user guide
+```
+
+### Smart Commits
 
 -> features/JIRA_CODE
-
-### Rebase
-
-
-
-### Comments & Smart Commits
 
 
 
