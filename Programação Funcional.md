@@ -9,8 +9,19 @@
 As funções são tratadas como variáveis e isso permite passar as funções como argumento para outra função, envolver uma função por outra função e atribuir em uma variável.
 
 ```javascript
+// Example 1
 const say = console.log;
 say("Hello!")
+
+// Example 2 
+const i18n = function (lang) {
+    return function(name) {
+        return name.replace('Hello', `Ola`)
+    }
+}
+const speaker = console.log
+const translate = i18n('pt-br')
+speaker(translate("Hello!"))
 ```
 
 * Pure/Impure Functions
