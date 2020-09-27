@@ -4,7 +4,7 @@
 
 ## Functions, functions, functions...
 
-* Fist-Class Functions
+* First-Class Functions
 
 As funções são tratadas como variáveis e isso permite passar as funções como argumento para outra função, envolver uma função por outra função e atribuir em uma variável.
 
