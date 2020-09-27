@@ -9,11 +9,11 @@
 As funções são tratadas como variáveis e isso permite passar as funções como argumento para outra função, envolver uma função por outra função e atribuir em uma variável.
 
 ```javascript
-// Example 1
+// Example_1.js
 const say = console.log;
 say("Hello!")
 
-// Example 2 
+// Example_2.js
 const i18n = function (lang) {
     return function(name) {
         if(lang === 'pt-br'){
