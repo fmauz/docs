@@ -16,7 +16,11 @@ say("Hello!")
 // Example 2 
 const i18n = function (lang) {
     return function(name) {
-        return name.replace('Hello', `Ola`)
+        if(lang === 'pt-br'){
+            return name.replace('Hello', `Ola`)
+        } else {
+            return name
+        }
     }
 }
 const speaker = console.log
